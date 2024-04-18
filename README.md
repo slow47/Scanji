@@ -47,3 +47,4 @@ Use this script for straightforward network scanning with minimal setup.
 
 This will provide step-by-step details of the scanning process.
 
+By SloW47 ♡
