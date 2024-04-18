@@ -24,23 +24,23 @@ This script makes it easy to run Nmap scans for discovering and analyzing open T
 - **Check Python**:
   - Usually pre-installed on Linux and macOS.
 
-**Download the Script**: Clone this repo or download the `nmap_script.py` file.
+**Download the Script**: Clone this repo or download the `QuickMap.py` file.
 
 ## How to Use
 
 **Basic Scan**: Run the script with an IP address:
 ```bash
-python nmap_script.py 192.168.1.1
+python QuickMap.py 192.168.1.1
 ```
 
 **Save Output**: To save the output to a file:
 ```bash
-python nmap_script.py 192.168.1.1 -o results.txt
+python QuickMap.py 192.168.1.1 -o results.txt
 ```
 
 **Verbose Output**: For a more detailed output:
 ```bash
-python nmap_script.py 192.168.1.1 -v
+python QuickMap.py 192.168.1.1 -v
 ```
 
 Use this script for straightforward network scanning with minimal setup.
