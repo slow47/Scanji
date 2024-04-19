@@ -1,4 +1,4 @@
-# QuickMap
+# Scanji
 
 ---
 
@@ -24,14 +24,14 @@ This script makes it easy to run Nmap scans for discovering and analyzing open T
 - **Check Python**:
   - Usually pre-installed on Linux and macOS.
 
-**Download the Script**: Clone this repo or download the `QuickMap.py` file. If you want to run it as an executable, make sure to make it executable with the following command:
+**Download the Script**: Clone this repo or download the `Scanji.py` file. If you want to run it as an executable, make sure to make it executable with the following command:
 
 ```bash
-chmod +x QuickMap.py
+chmod +x Scanji.py
 ```
 Also if You want to run it quickly every time you can do that by just adding it to your binaries path using this command :
 ```bash
-mv QuickMap.py /usr/local/bin/QuickMap
+mv Scanji.py /usr/local/bin/Scanji
 ```
 
 
@@ -41,22 +41,22 @@ You might need sudo privileges to run Nmap scans depending on your system's conf
 
 **As an Executable**:
 ```bash
-sudo ./QuickMap.py 192.168.1.1 -v
+sudo ./Scanji.py 192.168.1.1 -v
 ```
 
 **Or if did add it to the binaries path**:
 ```bash
-sudo QuickMap 192.168.1.1 -v
+sudo Scanji 192.168.1.1 -v
 ```
 
 **Save Output**: To save the output to a file:
 ```bash
-sudo QuickMap 192.168.1.1 -o results.txt
+sudo Scanji 192.168.1.1 -o results.txt
 ```
 
 **Using Python**:
 ```bash
-sudo python QuickMap.py 192.168.1.1 -v
+sudo python Scanji.py 192.168.1.1 -v
 ```
 
 
@@ -65,4 +65,5 @@ Use this script for straightforward network scanning with minimal setup.
 
 This will provide step-by-step details of the scanning process.
 
-By @SloW47 with the help of @Dexter24601 ♡
+By [SloW47](https://github.com/slow47) with the help of [Dexter24601](https://github.com/Dexter24601) ♡
+
