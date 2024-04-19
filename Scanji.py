@@ -97,7 +97,7 @@ def main():
     print()
     parser = argparse.ArgumentParser(description="Run and process Nmap scans more efficiently.")
     parser.add_argument("ip", type=str, help="IP address for the initial fast scan.")
-    parser.add_argument("-o", "--output", type=str, help="Save output of the detailed scan to a file.")
+    parser.add_argument("-o", "--output", type=str, help="Save output of the scan to a file.")
     parser.add_argument("-v", "--verbose", action="store_true", help="Enable verbose output for more detailed process information.")
     args = parser.parse_args()
 
