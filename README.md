@@ -63,7 +63,6 @@ sudo python Scanji.py 192.168.1.1 -v
 
 Use this script for straightforward network scanning with minimal setup.
 
-This will provide step-by-step details of the scanning process.
 
-By [SloW47](https://github.com/slow47) with the help of [Dexter24601](https://github.com/Dexter24601) ♡
+Made By [SloW47](https://github.com/slow47) with the help of [Dexter24601](https://github.com/Dexter24601) ♡
 
